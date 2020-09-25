@@ -12,3 +12,7 @@ def input_to_index(user_input)
   input = user_input.to_i - 1
   return input
 end
+
+def move(index)
+
+end
