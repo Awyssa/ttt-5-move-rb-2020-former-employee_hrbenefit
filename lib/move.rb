@@ -14,7 +14,7 @@ def input_to_index(user_input)
 end
 
 def move(board, index, player = "X")
-  if index != 0,1,2,3,4,5,6,7,8
+  if index != [0,1,2,3,4,5,6,7,8]
     puts "Sorry, that is not a valid number, please put a number between 1 to 9"
     user_input = gets.strip
     index = input_to_index(user_input)
