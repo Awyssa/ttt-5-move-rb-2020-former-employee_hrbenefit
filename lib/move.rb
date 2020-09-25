@@ -19,4 +19,5 @@ def move(board, index, player = "X")
     move(board, index, player = "X")
   else
   board[index] = player
+  end
 end
