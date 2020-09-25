@@ -6,7 +6,7 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 
-display_board
+display_board(board)
 
 puts "Please put a number between 1-9"
 
